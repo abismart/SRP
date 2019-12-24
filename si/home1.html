@@ -1,0 +1,89 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<title>CodePen - Responsive Bootstrap Columns and Rows</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<style>
+    body {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0;
+  background-image: linear-gradient(to right, #0b0d43, #1a205f, #27347d, #334a9c, #3e61bc, #3e61bc, #3e61bc, #3e61bc, #334a9c, #27347d, #1a205f, #0b0d43);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#ffffff;
+  margin: 20px 0;
+  padding: 10px;
+  width: 80%;
+  min-height: 150px;
+  border: 2px #fff solid;
+  border-radius:20px;
+  color: #fff;
+}
+  </style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<h3>4 Columns</h3>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="box">
+  <div>
+<img src="search.png" style="width:80px;height:80px;"><br>
+<h2 style="color:#000">SEARCH</h2>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="box">
+<p>class="col-xs-12 col-sm-6 col-md-3"</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="box">
+<p>class="col-xs-12 col-sm-6 col-md-3"</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-3">
+<div class="box">
+<p>class="col-xs-12 col-sm-6 col-md-3"</p>
+</div>
+</div>
+</div>
+</div>
+
+<h3>3 Columns</h3>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="box">
+<p>class="col-xs-12 col-sm-4"</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="box">
+<p>class="col-xs-12 col-sm-4"</p>
+</div>
+</div>
+<div class="col-xs-12 col-sm-4">
+<div class="box">
+<p>class="col-xs-12 col-sm-4"</p>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+</body></html>
